@@ -13,9 +13,9 @@ module.exports = {
         ],
         // specific path names 
         alias: {
-            Greeter: 'dist/react_components/Greeter.jsx',
-            GreeterMessage: 'dist/react_components/GreeterMessage.jsx',
-            GreeterForm: 'dist/react_components/GreeterForm.jsx'
+            // Greeter: 'dist/react_components/Greeter.jsx',
+            // GreeterMessage: 'dist/react_components/GreeterMessage.jsx',
+            // GreeterForm: 'dist/react_components/GreeterForm.jsx'
         },
         extensions: [".js", ".jsx"]
     },
