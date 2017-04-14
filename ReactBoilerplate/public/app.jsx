@@ -1,7 +1,4 @@
 // Greeter Message Component Green
-var React = require('react');
-var ReactDOM = require('react-dom');
-
 var GreeterMessage = React.createClass({
     render:function() {
         // Once called via a nested component all values from within the parent class can be accessed by this component
@@ -11,7 +8,6 @@ var GreeterMessage = React.createClass({
             <div>
                 <h1>Hello {name}!</h1>
                 <p>paragraph message: {message}</p>
-                <h1>Test 123</h1>
             </div>
         );
     }
