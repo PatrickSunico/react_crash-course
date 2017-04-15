@@ -17,6 +17,8 @@ module.exports = {
             Main: 'build/react_components/Main.jsx',
             Navigation: 'build/react_components/Nav.jsx',
             Weather: 'build/react_components/Weather.jsx',
+            WeatherForm: 'build/react_components/WeatherForm.jsx',
+            WeatherMessage: 'build/react_components/WeatherMessage.jsx',
             About: 'build/react_components/About.jsx',
             Examples: 'build/react_components/Examples.jsx'
         },

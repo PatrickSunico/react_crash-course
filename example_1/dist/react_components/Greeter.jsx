@@ -12,16 +12,16 @@ var Greeter = React.createClass({
         return {
             name: 'React',
             message: 'This is a message'
-        }; 
+        };
     },
 
     // getInitialState built in React function
     // use getInitialState if you want dynamic values 
     getInitialState: function() {
-        return{
+        return {
             // gets the props inside our default props
             name: this.props.name,
-            message: this.props.message 
+            message: this.props.message
         };
     },
 
@@ -30,21 +30,21 @@ var Greeter = React.createClass({
     handleData: function(updates) {
         this.setState(updates);
     },
-    render: function(){
+    render: function() {
         // this.props values to be assigned 
         // if variable value is state data is defined via getInitialState function 
         // else if variable value is prop data it's defined as a default prop value or an explicit prop value
         var name = this.state.name;
         var message = this.state.message;
-        return(
-          <div class="greeter">
-            {/*Nested Component + Props*/}
-            <GreeterMessage name={name} message={message}/>
-            {/*pass the props retrieved from the greeter form class*/}
-            <GreeterForm onNewData={this.handleData}/>
-          </div>  
+        return ( <
+            div class = "greeter" > { /*Nested Component + Props*/ } <
+            GreeterMessage name = { name }
+            message = { message }
+            /> { / * pass the props retrieved from the greeter form class * / } <
+            GreeterForm onNewData = { this.handleData }
+            /> < /
+            div >
         );
     }
 });
 module.exports = Greeter;
-

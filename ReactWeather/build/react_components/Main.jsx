@@ -5,12 +5,15 @@ var Nav = require('Navigation');
 
 // Main Component
 var Main = React.createClass({
+
   render: function(){
     return (
       <div>
+        {/*Nav Component*/}
         <Nav/>
+        {/*Main Component*/}
         <h2>Main Component</h2>
-        {/*the children that Inherits from the Main Class Component*/}
+        {/*Pages, the children that Inherits from the Main Class Component*/}
         {this.props.children}
       </div>
     );
